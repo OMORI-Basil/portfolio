@@ -188,23 +188,16 @@ onUnmounted(() => {
 }
 
 @media (max-width: 768px) {
-  .navbar {
-    top: 0.5rem;
-    left: 0.5rem;
-    right: 0.5rem;
-    padding: 0.5rem 1rem;
-  }
-  .navbar-links {
-    gap: 1.25rem;
-  }
-  .nav-link {
-    font-size: 0.78rem;
-  }
+  .navbar { top: 0.5rem; left: 0.5rem; right: 0.5rem; padding: 0.5rem 0.75rem; }
+  .navbar-links { gap: 0.8rem; }
+  .nav-link { font-size: 0.78rem; }
 }
-
-@media (max-width: 480px) {
-  .nav-link:nth-child(3) {
-    display: none;
-  }
+@media (max-width: 500px) {
+  .navbar { top: 0.3rem; left: 0.3rem; right: 0.3rem; padding: 0.3rem 0.4rem; border-radius: 12px; }
+  .navbar-links { gap: 0.1rem; }
+  .nav-link { font-size: 0.72rem; white-space: nowrap; }
+  .contact-btn { font-size: 0.7rem; padding: 0.25rem 0.45rem; border-radius: 8px; flex-shrink: 0; }
+  .logo-btn { width: 26px; height: 26px; flex-shrink: 0; }
+  .logo-text { font-size: 0.7rem; }
 }
 </style>

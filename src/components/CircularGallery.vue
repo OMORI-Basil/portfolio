@@ -134,12 +134,34 @@ onUnmounted(() => {
 }
 
 @media (max-width: 768px) {
+  .circular-gallery {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0.3rem;
+    padding-right: 0;
+  }
   .gallery-card {
     width: 160px;
     height: 100px;
   }
   .gallery-track {
     gap: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .circular-gallery {
+    padding: 0.5rem 0 0;
+  }
+  .gallery-card {
+    width: 120px;
+    height: 80px;
+  }
+  .gallery-track {
+    gap: 0.5rem;
+  }
+  .circular-gallery {
+    padding: 1rem 0 0;
   }
 }
 </style>

@@ -59,5 +59,6 @@ const videos = [
 .nav-btn { font-family: var(--font-family); font-size: 0.875rem; font-weight: 500; color: var(--color-text); text-decoration: none; padding: 0.5rem 1.2rem; border: 1px solid rgba(255,255,255,0.15); border-radius: 999px; transition: all 0.2s; white-space: nowrap; background: transparent; flex-shrink: 0; }
 .nav-btn:hover { background: #fff; color: var(--color-accent); border-color: #fff; }
 .credit-line { font-family: var(--font-family); font-size: 0.6875rem; color: rgba(255,255,255,0.5); text-align: center; line-height: 1.6; flex: 1; }
-@media (max-width: 768px) { .detail-section { padding: 7rem 1.5rem 3rem; } .video-grid { grid-template-columns: 1fr; } }
+@media (max-width: 768px) { .detail-section { padding: 7rem var(--container-padding) 3rem; } .video-grid { grid-template-columns: 1fr; } }
+@media (max-width: 480px) { .detail-section { padding: 3.5rem var(--container-padding) 1.5rem; } .section-title { font-size: clamp(1.3rem,7vw,1.8rem); } .nav-btn { font-size: 0.55rem; padding: 0.2rem 0.4rem; white-space: nowrap; } .credit-line { font-size: 0.5rem; line-height: 1.2; } .video-grid { gap: 0.5rem; } .bottom-nav { flex-direction: row; justify-content: space-between; gap: 0.2rem; } .back-btn { font-size: 0.55rem; padding: 0.2rem 0.5rem; white-space: nowrap; } .video-label { font-size: 0.6rem; } }
 </style>

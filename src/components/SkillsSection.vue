@@ -281,24 +281,17 @@ const bottomSkills = [
 }
 
 @media (max-width: 768px) {
-  .skills-section {
-    padding: 6rem 0;
-  }
-  .container {
-    padding: 0 1.5rem;
-  }
-  .bottom-row {
-    grid-template-columns: 1fr;
-  }
-  .skill-card {
-    min-height: 240px;
-    padding: 1rem;
-  }
-  .skill-title {
-    font-size: 1.15rem;
-  }
-  .skill-desc {
-    font-size: 14px;
-  }
+  .skills-section { padding: 6rem 0; }
+  .container { padding: 0 var(--container-padding); }
+  .bottom-row { grid-template-columns: 1fr; }
+  .skill-card { min-height: 240px; padding: 1rem; }
+  .skill-title { font-size: 1.15rem; }
+  .skill-desc { font-size: 14px; }
+}
+@media (max-width: 480px) {
+  .skills-section { padding: 4rem 0; }
+  .skill-card { min-height: 200px; padding: 0.75rem; }
+  .skill-title { font-size: 1rem; }
+  .skill-desc { font-size: 13px; }
 }
 </style>

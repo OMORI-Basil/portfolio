@@ -345,7 +345,7 @@ function scrollToTop() {
 
 /* Footer */
 .footer {
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
   margin-top: 8rem;
   padding-top: 2rem;
 }
@@ -391,16 +391,19 @@ function scrollToTop() {
 }
 
 @media (max-width: 768px) {
-  .contact-section {
-    padding: 6rem 0 4rem;
-  }
-  .container {
-    padding: 0 1.5rem;
-  }
-  .footer-content {
-    text-align: center;
-    flex-direction: column;
-    gap: 1rem;
-  }
+  .contact-section { padding: 6rem 0 4rem; }
+  .container { padding: 0 var(--container-padding); }
+  .contact-content { gap: 3rem; }
+  .contact-right { padding: 1.5rem; }
+}
+@media (max-width: 480px) {
+  .contact-section { padding: 4rem 0 3rem; }
+  .section-title { font-size: clamp(1.8rem, 8vw, 2.5rem); }
+  .contact-right { padding: 1.2rem; }
+  .form-input, .form-textarea { padding: 0.6rem 0; }
+  .submit-btn { padding: 0.8rem; }
+  .contact-links { gap: 0.75rem; }
+  .footer-text { font-size: 0.65rem; }
+  .back-to-top { font-size: 0.65rem; }
 }
 </style>
