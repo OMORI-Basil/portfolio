@@ -135,15 +135,13 @@ onUnmounted(() => {
 
 @media (max-width: 768px) {
   .circular-gallery {
-    width: 100%;
-    margin-left: 0;
+    width: calc(100vw + 2 * var(--container-padding));
+    margin-left: calc(-1 * var(--container-padding));
     padding-left: 0;
     padding-right: 0;
   }
   .gallery-scene {
     overflow: hidden;
-    margin-left: calc(-1 * var(--container-padding));
-    width: calc(100% + 2 * var(--container-padding));
   }
   .gallery-card {
     width: 160px;
