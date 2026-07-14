@@ -138,13 +138,13 @@ body {
 
 @media (width <= 768px) {
   :root {
-    --container-padding: 1.2rem;
+    --container-padding: 0.8rem;
     --section-gap: 6rem;
   }
 }
 
 @media (width <= 480px) {
   :root {
-    --container-padding: 1rem;
+    --container-padding: 0.6rem;
   }
 }
