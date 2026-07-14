@@ -194,9 +194,9 @@ onUnmounted(() => {
 }
 @media (max-width: 500px) {
   .navbar { top: 0.3rem; left: 0.3rem; right: 0.3rem; padding: 0.3rem 0.5rem; border-radius: 12px; }
-  .navbar-links { gap: 0.3rem; }
+  .navbar-links { gap: 0.5rem; }
   .nav-link { font-size: 0.72rem; white-space: nowrap; }
-  .contact-btn { font-size: 0.7rem; padding: 0.25rem 0.45rem; border-radius: 8px; flex-shrink: 0; }
+  .contact-btn { font-size: 0.7rem; padding: 0.25rem 0.45rem; border-radius: 14px; flex-shrink: 0; }
   .logo-btn { width: 28px; height: 28px; flex-shrink: 0; }
   .logo-text { font-size: 0.75rem; }
 }
