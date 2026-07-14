@@ -139,13 +139,12 @@ onUnmounted(() => {
     margin-left: 0;
     padding-left: 0;
     padding-right: 0;
-    overflow: visible;
   }
   .gallery-scene {
-    overflow: visible;
+    overflow: hidden;
   }
   .gallery-track {
-    padding-left: var(--container-padding);
+    padding-left: 0.5rem;
   }
   .gallery-card {
     width: 160px;
