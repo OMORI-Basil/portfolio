@@ -137,7 +137,7 @@ onUnmounted(() => {
   .circular-gallery {
     width: 100%;
     margin-left: 0;
-    padding-left: 0.3rem;
+    padding-left: 0;
     padding-right: 0;
   }
   .gallery-card {

@@ -345,7 +345,7 @@ function scrollToTop() {
 
 /* Footer */
 .footer {
-  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
   margin-top: 8rem;
   padding-top: 2rem;
 }

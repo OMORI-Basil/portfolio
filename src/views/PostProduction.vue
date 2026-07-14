@@ -54,5 +54,5 @@ function goTo(path) { router.push(path) }
 .nav-btn:hover { background: #fff; color: var(--color-accent); border-color: #fff; }
 .credit-line { font-family: var(--font-family); font-size: 0.6875rem; color: rgba(255,255,255,0.5); text-align: center; line-height: 1.6; flex: 1; }
 @media (max-width: 768px) { .detail-section { padding: 7rem var(--container-padding) 3rem; } }
-@media (max-width: 480px) { .detail-section { padding: 3.5rem var(--container-padding) 1.5rem; } .section-title { font-size: clamp(1.3rem,7vw,1.8rem); } .nav-btn { font-size: 0.55rem; padding: 0.2rem 0.4rem; white-space: nowrap; } .credit-line { font-size: 0.5rem; line-height: 1.2; } .bottom-nav { flex-direction: row; justify-content: space-between; gap: 0.2rem; } .back-btn { font-size: 0.55rem; padding: 0.2rem 0.5rem; white-space: nowrap; } }
+@media (max-width: 480px) { .detail-section { padding: 3rem var(--container-padding) 1.5rem; } .section-title { font-size: clamp(1.2rem,7vw,1.5rem); } .nav-btn { font-size: 0.5rem; padding: 0.15rem 0.35rem; white-space: nowrap; } .credit-line { font-size: 0.4rem; line-height: 1.1; } .bottom-nav { flex-direction: row; justify-content: space-between; gap: 0.15rem; } .back-btn { font-size: 0.5rem; padding: 0.15rem 0.4rem; white-space: nowrap; } }
 </style>

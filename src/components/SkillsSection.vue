@@ -289,9 +289,9 @@ const bottomSkills = [
   .skill-desc { font-size: 14px; }
 }
 @media (max-width: 480px) {
-  .skills-section { padding: 4rem 0; }
-  .skill-card { min-height: 200px; padding: 0.75rem; }
-  .skill-title { font-size: 1rem; }
-  .skill-desc { font-size: 13px; }
+  .skills-section { padding: 3rem 0; }
+  .skill-card { min-height: 180px; padding: 0.6rem; }
+  .skill-title { font-size: 0.9rem; }
+  .skill-desc { font-size: 12px; }
 }
 </style>
