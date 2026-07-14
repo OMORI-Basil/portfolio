@@ -189,7 +189,7 @@ onUnmounted(() => {
 
 @media (max-width: 768px) {
   .navbar { top: 0.5rem; left: 0.5rem; right: 0.5rem; padding: 0.5rem 0.75rem; }
-  .navbar-links { gap: 1.2rem; }
+  .navbar-links { gap: 0.8rem; }
   .nav-link { font-size: 0.78rem; }
 }
 @media (max-width: 500px) {
