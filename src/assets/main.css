@@ -131,7 +131,7 @@ body {
 
 @media (width <= 768px) {
   :root {
-    --container-padding: 0;
+    --container-padding: 1rem;
     --section-gap: 6rem;
   }
 }
