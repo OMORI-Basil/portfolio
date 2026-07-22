@@ -61,7 +61,7 @@
 import { reactive, ref } from 'vue'
 
 const contactLinks = [
-  { label: '邮箱', value: '2073054850@qq.com', href: 'mailto:2073054850@qq.com', external: false },
+  { label: '邮箱', value: '3479659297@qq.com', href: 'mailto:3479659297@qq.com', external: false },
   { label: '电话', value: '18750131360', href: 'tel:18750131360', external: false },
   { label: 'Bilibili', value: 'space.bilibili.com', href: 'https://space.bilibili.com', external: true },
 ]
