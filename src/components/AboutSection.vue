@@ -113,8 +113,8 @@ const stats = [
 const buildingTags = ['C4D', 'Photoshop', 'AI 工作流', 'OC渲染器', 'AE', '剪辑', 'Adobe Illustrator', '前端开发', '…']
 const careerData = [
   { period: '2025', company: '全国三维设计大赛', role: '国赛三等奖 / 省赛特等奖', description: '全国三维设计大赛国家三等奖\n省赛特等奖' },
-  { period: '2024 - 2025', company: '专业竞赛', role: '多次特等奖', description: '多次获得专业竞赛设计赛道特等奖\n专业课排名年段前 5%' },
-  { period: '2023 - 2025', company: '跨学科项目', role: '项目负责人', description: '多次完整领导、参与学校多学科交融项目\n具有多学科协作与项目统筹经验' },
+  { period: '2024 - 2025', company: '工行杯 全国大学生金融科技创新大赛', role: '荣誉奖项', description: '十六届：校级特等奖\n十五届：校级一等奖' },
+  { period: '2024 - 2026', company: '跨学科项目', role: '项目负责人', description: '多次完整领导、参与学校多学科交融项目\n具有多学科协作与项目统筹经验' },
 ]
 function splitLines(text) { return text.split('\n').filter(Boolean) }
 </script>
